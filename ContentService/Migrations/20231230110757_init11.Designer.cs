@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using BookingService.Persistance;
+using ContentService.Persistance;
 
 #nullable disable
 
-namespace SmartHotel.BookingService.Migrations
+namespace SmartHotel.ContentService.Migrations
 {
     [DbContext(typeof(BookingDbContext))]
     [Migration("20231230110757_init11")]
@@ -25,7 +25,7 @@ namespace SmartHotel.BookingService.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("SmartHotel.BookingService.Entities.Booking", b =>
+            modelBuilder.Entity("SmartHotel.ContentService.Entities.Booking", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

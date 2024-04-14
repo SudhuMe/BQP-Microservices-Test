@@ -1,6 +1,6 @@
 ﻿using Abstraction.Result;
 
-namespace BookingService;
+namespace ContentService;
 
 public static class BookingErrors
 {

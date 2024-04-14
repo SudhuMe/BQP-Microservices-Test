@@ -4,7 +4,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Text.Json;
 
-namespace BookingService.Swagger
+namespace ContentService.Swagger
 {
     public class SwaggerDefaultValues : IOperationFilter
     {

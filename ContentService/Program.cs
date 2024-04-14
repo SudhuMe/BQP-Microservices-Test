@@ -1,5 +1,5 @@
 
-using BookingService.Consumers;
+using ContentService.Consumers;
 using Microsoft.EntityFrameworkCore;
 using Infrastructure.AuthenticationManager;
 using Infrastructure.Exceptions;
@@ -8,7 +8,7 @@ using Infrastructure.Services;
 using Infrastructure.Config;
 using Infrastructure.Behaviors;
 using Persistance.Repository;
-using BookingService.Persistance;
+using ContentService.Persistance;
 using Asp.Versioning;
 
 

@@ -3,7 +3,7 @@ using Persistance.Entities;
 using Infrastructure.Perception;
 using Infrastructure.Services;
 
-namespace BookingService.Persistance
+namespace ContentService.Persistance
 {
     public class BookingDbContext : BaseDbContext
     {

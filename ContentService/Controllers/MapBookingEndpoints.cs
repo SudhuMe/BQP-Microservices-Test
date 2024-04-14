@@ -1,5 +1,5 @@
 ﻿using Asp.Versioning;
-using BookingService;
+using ContentService;
 using CQRS.Commands.CreateBooking;
 
 public static class BookingEndpoints

@@ -1,9 +1,9 @@
-﻿using BookingService.CQRS.Queries.GetBooking.Response;
+﻿using ContentService.CQRS.Queries.GetBooking.Response;
 using Abstraction;
 using Persistance.Repository;
 using Persistance.Entities;
 
-namespace BookingService.CQRS.Queries.GetBooking;
+namespace ContentService.CQRS.Queries.GetBooking;
 
 public class GetBookingQuery() : IRequest<GetBookingQueryResponse>, ICachableQuery
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Distributed;
 
-namespace BookingService.CQRS.Commands.Cache;
+namespace ContentService.CQRS.Commands.Cache;
 
 internal class CacheInvalidationBookingHandler : INotificationHandler<BookingCreatedEvent>
 {

@@ -1,6 +1,6 @@
 ﻿using CQRS.Commands.CreateBooking;
 
-namespace BookingService.CQRS.Commands.CreateBooking;
+namespace ContentService.CQRS.Commands.CreateBooking;
 
 public class CreateBookingRequestValidator :  AbstractValidator<CreateBookingCommand>
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Persistance.Entities;
-using BookingService.Persistance;
+using ContentService.Persistance;
 
 namespace Persistance.Repository;
 

@@ -1,6 +1,6 @@
 ﻿using Persistance.Repository;
 
-namespace BookingService.Consumers;
+namespace ContentService.Consumers;
 
 public class BookingStatusUpdateConsumer : IConsumer<BookingStatusUpdateEvent>
 {

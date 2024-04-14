@@ -1,5 +1,5 @@
 ﻿
-namespace BookingService.CQRS.Queries.GetBooking.Response;
+namespace ContentService.CQRS.Queries.GetBooking.Response;
 
 public class GetBookingQueryResponse
 {

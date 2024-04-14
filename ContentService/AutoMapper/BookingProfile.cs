@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BookingService.CQRS.Commands.CreateBooking.Request;
-using BookingService.CQRS.Commands.CreateBooking;
+using ContentService.CQRS.Commands.CreateBooking.Request;
+using ContentService.CQRS.Commands.CreateBooking;
 using Service.Shared;
 using CQRS.Commands.CreateBooking;
 
-namespace BookingService.AutoMapper
+namespace ContentService.AutoMapper
 {
     public class BookingProfile : Profile
     {

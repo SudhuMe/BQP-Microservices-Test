@@ -3,7 +3,7 @@ using Persistance.Repository;
 using Persistance.Entities;
 using CQRS.Commands.CreateBooking;
 
-namespace BookingService.CQRS.Commands.CreateBooking;
+namespace ContentService.CQRS.Commands.CreateBooking;
 
 public class CreateBookingCommandHandler(IBookingRepository repository  ) : IRequestHandler<CreateBookingCommand, Result<int>>
 {

@@ -1,0 +1,12 @@
+﻿global using UserService.CQRS.Commands.CreateBooking;
+global using UserService.CQRS.Commands.CreateBooking.Request;
+global using UserService.CQRS.Queries.GetBooking;
+global using MassTransit;
+global using MediatR;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Service.Shared;
+global using UserService.CQRS.Queries.GetBookings;
+global using AutoMapper;
+global using Abstraction.Result;
+global using FluentValidation;

@@ -1,10 +1,10 @@
 ﻿using MediatR;
-using BookingService.CQRS.Queries.GetBookings.Response;
+using ContentService.CQRS.Queries.GetBookings.Response;
 using Abstraction;
 using Abstraction.Result;
 using Persistance.Repository;
 
-namespace BookingService.CQRS.Queries.GetBookings;
+namespace ContentService.CQRS.Queries.GetBookings;
 
     public class GetBookingsQuery : IRequest<Result<List<GetBookingsQueryResponse>>>, ICachableQuery
     {

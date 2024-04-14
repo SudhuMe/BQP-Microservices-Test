@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace BookingService.Swagger
+namespace ContentService.Swagger
 {
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
@@ -23,9 +23,9 @@ namespace BookingService.Swagger
         {
             var info = new OpenApiInfo()
             {
-                Title = "BookingService",
+                Title = "ContentService",
                 Version = description.ApiVersion.ToString(),
-                Description = "BookingService Web API"              
+                Description = "ContentService Web API"              
             };
 
             if (description.IsDeprecated)

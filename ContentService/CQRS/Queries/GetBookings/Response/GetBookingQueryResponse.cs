@@ -1,4 +1,4 @@
-﻿namespace BookingService.CQRS.Queries.GetBookings.Response
+﻿namespace ContentService.CQRS.Queries.GetBookings.Response
 {
     public class GetBookingsQueryResponse
     {

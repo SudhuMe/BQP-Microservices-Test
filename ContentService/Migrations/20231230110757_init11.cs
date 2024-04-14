@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace SmartHotel.BookingService.Migrations
+namespace SmartHotel.ContentService.Migrations
 {
     /// <inheritdoc />
     public partial class init11 : Migration
