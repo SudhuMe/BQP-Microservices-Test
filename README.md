@@ -30,7 +30,8 @@ Before running the .NET 8 solution, ensure the following prerequisites are met:
 ### Entity Framework Core (Optional) - Should ideally install when .NET Restore happens
 - Install necessary NuGet packages.
 - Apply migrations: `Update-Database` in Package Manager Console.
-- Alternatively you can find the scripts to create the table unuder each DB here -  
+- Alternatively you can find the scripts to create the table unuder each DB here under Tech Docs -  
+  https://drive.google.com/drive/folders/1PUNtEwiovNec9gSEdKMfoiwkVakgKUgM?usp=sharing
 
 ### Running the Solution
 1. Open the solution in Visual Studio.
