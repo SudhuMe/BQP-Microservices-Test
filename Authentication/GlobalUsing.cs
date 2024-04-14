@@ -1,0 +1,9 @@
+﻿global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using AuthenticationService.CQRS.Commands.Register;
+global using AuthenticationService.CQRS.Commands.Register.Requests;
+global using AuthenticationService.CQRS.Queries.GetUserDetails;
+global using AuthenticationService.CQRS.Queries.Login;
+global using AuthenticationService.CQRS.Queries.Login.Requests;
+global using AuthenticationService.CQRS.Queries.Login.Responses;
+global using AuthenticationService.DTO;
