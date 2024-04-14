@@ -39,8 +39,15 @@ Before running the .NET 8 solution, ensure the following prerequisites are met:
 3. Run the application to start the microservices.
 
 ## Postman Collection
-- Collection on postman requests is also shared in the common link shared on email.
+- You can find the collection of the postman requests in the same link - https://drive.google.com/drive/folders/1PUNtEwiovNec9gSEdKMfoiwkVakgKUgM 
 - You can use it to test the solution on localhost
+
+## Pending / To do Items
+- Add/Update codebase on services apart from Authentication.
+- Demonstrate capabilities of connectivity via HttpClient between service.
+- Add unit testing cases and projects to respective services.
+- Containerize the services with Docker so both .NET and SQL Server don't have to be installed on test machine.
+
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE.md` file for details.
